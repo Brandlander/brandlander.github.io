@@ -19,6 +19,10 @@ body {
     text-align: center;
 }
 
+.header .name {
+    color: azure;
+}
+
 .nav { 
     background: rgb(78, 78, 78);
     height: 80px; 
