@@ -1,0 +1,88 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-weight:  100;
+    background-color: rgb(41, 42, 43)
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 940px;
+    padding: 0 10px;
+}
+
+.header {
+    text-align: center;
+}
+
+.nav { 
+    background: rgb(78, 78, 78);
+    height: 80px; 
+    width: 100%;
+    text-align: center;
+}
+
+.nav ul {
+    list-style: none;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.nav ul li {
+    color: azure;
+    display: inline;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 5;
+    padding: 0 50px;
+}
+
+a   {
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+}
+
+.jumbotron {
+    height: 600px;
+    display: block;
+    text-align: center;
+    background-image: url(ventura-view.jpg);
+}
+
+.jumbotron .container {
+    position: relative;
+    top: 220px;
+    overflow: auto;
+    color: azure;
+    text-shadow: 2px 2px black;
+}
+
+.icons {
+    position: fixed;
+    bottom: 0;
+}
+
+.icons .container {
+    text-align: right;
+}
+
+.icons img {
+    height: 30px;
+}
+
+.signature {
+    position: fixed;
+    left: 80px;
+    text-align: center;
+    bottom: 0;
+}
+
+.name {
+    font-family: Lora;
+    font-weight: lighter;
+}
